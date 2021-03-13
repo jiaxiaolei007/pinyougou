@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ija5z9');
+  src:  url('fonts/icomoon.eot?ija5z9#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ija5z9') format('truetype'),
+    url('fonts/icomoon.woff?ija5z9') format('woff'),
+    url('fonts/icomoon.svg?ija5z9#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-academia:before {
+  content: "\e900";
+}
+.icon-apacheflink:before {
+  content: "\e901";
+  color: #e6526f;
+}
+.icon-arduino:before {
+  content: "\e902";
+  color: #00979d;
+}
+.icon-beatsbydre:before {
+  content: "\e903";
+  color: #e01f3d;
+}
+.icon-bigcartel:before {
+  content: "\e904";
+}
+.icon-compropago:before {
+  content: "\e905";
+  color: #00aaef;
+}
+.icon-conekta:before {
+  content: "\e906";
+  color: #414959;
+}
+.icon-dlna:before {
+  content: "\e907";
+  color: #48a842;
+}
+.icon-docusign:before {
+  content: "\e908";
+  color: #fc2;
+}
+.icon-fujitsu:before {
+  content: "\e909";
+  color: #f00;
+}
+.icon-gentoo:before {
+  content: "\e90a";
+  color: #54487a;
+}
+.icon-github:before {
+  content: "\e90b";
+}
+.icon-gravatar:before {
+  content: "\e90c";
+  color: #1e8cbe;
+}
+.icon-ios:before {
+  content: "\e90d";
+}
+.icon-line:before {
+  content: "\e90e";
+  color: #00c300;
+}
+.icon-mathworks:before {
+  content: "\e90f";
+  color: #0076a8;
+}
+.icon-moo:before {
+  content: "\e910";
+  color: #00945e;
+}
+.icon-player-dot-me:before {
+  content: "\e911";
+  color: #c0379a;
+}
+.icon-shell:before {
+  content: "\e912";
+  color: #ffd500;
+}
+.icon-shopify:before {
+  content: "\e913";
+  color: #7ab55c;
+}
+.icon-cheveron-down:before {
+  content: "\e914";
+}
+.icon-cheveron-down1:before {
+  content: "\e919";
+}
+.icon-cheveron-left:before {
+  content: "\e91a";
+}
+.icon-cheveron-right:before {
+  content: "\e917";
+}
+.icon-cheveron-up:before {
+  content: "\e918";
+}
+.icon-refresh:before {
+  content: "\e915";
+}
+.icon-reload:before {
+  content: "\e916";
+}
+.icon-shopping-cart:before {
+  content: "\e91b";
+}

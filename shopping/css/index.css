@@ -1,0 +1,369 @@
+.w .main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    position: relative;
+    width: 721px;
+    height: 455px;
+    float: left;
+    background-color: purple;
+}
+
+.focus .picture li image {
+    width: 100%;
+    height: 100%;
+}
+
+.focus .prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -15px;
+    width: 20px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgb(0, 0, 0, .3);
+    color: #fff;
+    border-radius: 0 15px 15px 0;
+}
+
+.focus .next {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -15px;
+    width: 20px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgb(0, 0, 0, .3);
+    color: #fff;
+    border-radius: 15px 0 0 15px;
+}
+
+.focus .point {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -35px;
+    width: 70px;
+    height: 13px;
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 6px;
+}
+
+.focus .point li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.focus .point .first {
+    background-color: saddlebrown;
+}
+
+.newsflash {
+    width: 250px;
+    height: 455px;
+    float: right;
+}
+
+.newsflash .news {
+    border: 1px solid #e4e4e4;
+    height: 165px;
+}
+
+.new-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+
+.new-hd h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.new-hd a {
+    float: right;
+}
+
+.new-hd a::after {
+    font-family: 'icomoon';
+    content: '\e920';
+}
+
+.new-bd {
+    padding: 5px 15px 0;
+}
+
+.new-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    color: #e4e4e4;
+}
+
+.newsflash .lifeservice {
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: pink;
+    margin-top: 12px;
+    background: url(../images/icons.png) no-repeat -18px -15px;
+}
+
+.newsflash .bargin {
+    margin-top: 6px;
+}
+
+
+/* 推荐模块 */
+
+.recom {
+    height: 163px;
+    margin-top: 10px;
+    background-color: #ebebeb;
+}
+
+.recom .recom_hd {
+    float: left;
+    width: 205px;
+    height: 163px;
+    line-height: 163px;
+    text-align: center;
+    background-color: #5c5251;
+}
+
+.recom .recom_bd {
+    float: left;
+}
+
+.recom .recom_bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+
+.recom .recom_bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recom .recom_bd ul li:nth-child(-n+3)::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 1px;
+    height: 153px;
+    background-color: #ddd;
+}
+
+
+/* 猜你喜欢 */
+
+.guess {
+    height: 264px;
+    margin-top: 33px;
+}
+
+.guess-hd {
+    height: 30px;
+}
+
+.guess-hd h5 {
+    float: left;
+    font-size: 18px;
+}
+
+.guess-hd span {
+    float: right;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 18px;
+}
+
+.guess-hd span::after {
+    content: '\e915';
+    font-family: 'icomoon';
+    font-size: 14px;
+    margin-left: 2px;
+}
+
+.guess-bd {
+    height: 234px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.guess-bd ul {
+    width: 1201px;
+}
+
+.guess-bd ul li {
+    float: left;
+    height: 234px;
+    width: 200px;
+}
+
+.introd {
+    width: 180px;
+    height: 64px;
+    border-right: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.introd span {
+    font-size: 18px;
+    color: #e87c7d;
+}
+
+
+/* 传智播客 */
+
+.inter {
+    height: 435px;
+}
+
+.inter-hd {
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.inter .inter-bd ul li {
+    float: left;
+}
+
+.inter .inter-bd {
+    height: 405px;
+    border: 1px solid #ddd;
+}
+
+
+/* 楼层模块 */
+
+.floor .box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: normal;
+    color: #c81623;
+}
+
+.tab_list {
+    float: right;
+    line-height: 30PX;
+}
+
+.tab_list li {
+    float: left;
+}
+
+.tab_list li a {
+    margin: 15px;
+}
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.box_bd {
+    height: 361px;
+}
+
+.tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.col_210 ul {
+    margin-left: 12px;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.demo a img {
+    margin-top: 25px;
+    margin-left: 18px;
+}
+
+.demo1 {
+    line-height: 361px;
+    text-align: center;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.col_219 a img {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.bb {
+    /* 一般情况下，a如果包含有宽度的盒子那么a需要转为块级元素 */
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+.floor .logolist {
+    margin-top: 20px;
+}

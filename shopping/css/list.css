@@ -1,0 +1,111 @@
+.header .sk {
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    padding: 3px 0 0 14px;
+    border-left: 1px solid #c81523;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    height: 47px;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sk_col {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    height: 47px;
+    line-height: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '\e914';
+    font-family: 'icomoon';
+}
+
+.sk_bd ul li {
+    float: left;
+    margin-right: 13px;
+    width: 290px;
+    height: 460px;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #e82633;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li a {
+    font-size: 14px;
+}
+
+.sk_bd ul li .price {
+    height: 20px;
+    margin: 20px 0 10px 0;
+}
+
+.sk_bd ul li .price span {
+    font-size: 22px;
+    color: #e82633;
+}
+
+.sk_bd ul li .price del {
+    font-size: 14px;
+}
+
+.sk_bd ul li .percent {
+    margin-left: 8px;
+    height: 15px;
+}
+
+.sk_bd ul li .percent .box {
+    display: inline-block;
+    width: 135px;
+    height: 14px;
+    font-size: 14px;
+    border-radius: 7px;
+    background-color: #e82633;
+    margin: 0 5px;
+}
+
+.sk_bd ul li .percent span {
+    font-size: 16px;
+    color: #e82633;
+}
+
+.sk_bd ul li .qiang a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    background-color: #b1191a;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 12px;
+    color: #fff;
+}
